@@ -14,11 +14,63 @@ body {
     background-size: cover;
 }
 
+hr{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.jobDetails{
+    font-size: 120%;
+    line-height: 90%;
+    font-weight: 700;
+}
+
+.jobLocation{
+    font-size: 110%;
+    line-height: 90%;
+    font-weight: 300;
+}
+
+.jobDescription{
+    
+}
+
 .container-fluid {
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+}
+
+input[type=submit] {
+    width:100px;
+}
+
+.jobTitle, .jobTime{
+    margin-top: 0;
+    text-align: right;
+}
+
+.bullets, .skillTitle{
+    margin-top: 20px;
+}
+
+.skillTitle{
+    text-align: right;
+}
+
+#fresponse{
+    text-align: center;
+}
+
+textarea, input{
+    width: 400px;
+    margin-bottom: 10px;
 }
 
 #pengIcon {
@@ -116,6 +168,10 @@ span.icon-bar{
     .jumbotron p{
         font-size:12px;
     }
+	
+	#myFreakingFace{
+		display:none;
+	}
 }
 
 @media (min-width: 768px) {
